@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:padding="24dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/jokeCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        card_view:cardCornerRadius="16dp"
+        card_view:cardElevation="8dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="24dp"
+        android:padding="20dp"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/jokeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click the button to get a joke!"
+            android:textSize="18sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="#333333"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:layout_marginTop="15dp"
+            android:minHeight="120dp" />
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/jokeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tell me a Joke!"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/jokeCard"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp" />
+    <ImageView
+        android:id="@+id/jokeImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="Joke Image"
+        android:scaleType="fitCenter"
+        android:src="@drawable/laugh1" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9800</color> <!-- Orange -->
+    <color name="colorPrimaryDark">#F57C00</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="background">#f2f2f2</color> <!-- Light gray -->
+    <color name="cardText">#333333</color> <!-- Dark gray -->
+    <color name="buttonText">#FFFFFF</color> <!-- White -->
+</resources>
